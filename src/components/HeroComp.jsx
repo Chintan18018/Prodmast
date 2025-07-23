@@ -9,9 +9,9 @@ const HeroComp = () => {
       {/* Hero Section */}
       <Flex justify="center" align="center" vertical={true} gap="small">
         <Title>The Future of Manufacturing</Title>
-        <Title level={2}>
-          With <span style={{ color: "#1677ff" }}>Latest Technology</span>
-        </Title>
+        <Text style={{ fontSize: '32px', fontWeight: 'bold' }}>
+          With <span style={{ color: "#006666" }}>Latest Technology</span>
+        </Text>
         <Title level={5} style={{ textAlign: "center" }}>
           Expert tech to elevate your manufacturing. Let’s take business
           further.
