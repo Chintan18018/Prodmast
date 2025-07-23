@@ -19,8 +19,8 @@ const HeroComp = () => {
       </Flex>
 
       <Flex justify="center" align="center" vertical={false} gap="small">
-        <Button  size="large" style={{ backgroundColor: '#006666',color: 'white', padding: '30px' }}>Get started</Button>
-        <Button  size="large" style={{ padding: '30px' }}>Try now</Button>
+        <Button  size="large" style={{ backgroundColor: '#006666',color: 'white', padding: '30px 50px' , borderRadius: '32px',}}>Get started</Button>
+        <Button  size="large" style={{ padding: '30px 50px' ,borderRadius: '32px'}}>Try now</Button>
       </Flex>
 
       {/* Cards Section */}
