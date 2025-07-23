@@ -31,7 +31,7 @@ const HeroComp = () => {
             <i class="ri-star-fill" style={{ color: '#FFD54F' }}></i>
             <i class="ri-star-fill" style={{ color: '#FFD54F' }}></i>
             <i class="ri-star-fill" style={{ color: '#FFD54F' }}></i>
-            <Text style={{ fontSize: '16px', fontWeight:"bolder" }}>5.0</Text>
+            <Text style={{ fontSize: '24px', fontWeight:"bolder" }}>5.0</Text>
           </Space>
         </div>
         <Text style={{fontSize:'24px'}}>From 80+ reviews</Text>
