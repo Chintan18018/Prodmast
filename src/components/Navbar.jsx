@@ -1,4 +1,4 @@
-import { Flex ,Button} from 'antd'
+import { Flex ,Button, Space} from 'antd'
 import React from 'react';
 import { Typography } from 'antd';
 
@@ -15,15 +15,16 @@ const Navbar = () => {
              <Title style={{ margin: '0px' }}>Prodmast</Title>
              </Flex>
         </div>
-        <div>
-            <Flex justify='center' align='center' vertical={false} gap="middle" style={{ fontSize: '24px' ,color: 'black'}}>
-                <Link href="" target="_blank">Home</Link>
-                <Link href="" target="_blank">About</Link>
-                <Link href="" target="_blank">Service</Link>
-                <Link href="" target="_blank">Contact Us</Link>
-            </Flex>
+        <div >
+            
+            <Space size={50}>
+               <Link href="" target="_blank" style={{ fontSize: '16px' ,color: 'black'}}>Home</Link>
+                <Link href="" target="_blank" style={{ fontSize: '16px' ,color: 'black'}}>About</Link>
+                <Link href="" target="_blank" style={{ fontSize: '16px' ,color: 'black'}}>Service</Link>
+                <Link href="" target="_blank" style={{ fontSize: '16px' ,color: 'black'}}>Contact Us</Link>
+            </Space>
         </div>
-        <Button type="primary" style={{ backgroundColor: '#006666',color: 'white', padding: '20px' }}>Sign Up</Button>
+        <Button type="primary" style={{ backgroundColor: '#006666',color: 'white', padding: '20px 30px', borderRadius: '32px' }}>Sign Up</Button>
       </Flex>
     </div>
   )

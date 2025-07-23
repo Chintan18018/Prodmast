@@ -23,6 +23,20 @@ const HeroComp = () => {
         <Button  size="large" style={{ padding: '30px 50px' ,borderRadius: '32px'}}>Try now</Button>
       </Flex>
 
+      <Space direction="vertical" align="center" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' , marginTop:'100px', fontSize:'32px'}}>
+        <div >
+          <Space align="center">
+            <i class="ri-star-fill" style={{ color: '#FFD54F' }}></i>
+            <i class="ri-star-fill" style={{ color: '#FFD54F' }}></i>
+            <i class="ri-star-fill" style={{ color: '#FFD54F' }}></i>
+            <i class="ri-star-fill" style={{ color: '#FFD54F' }}></i>
+            <i class="ri-star-fill" style={{ color: '#FFD54F' }}></i>
+            <Text style={{ fontSize: '16px', fontWeight:"bolder" }}>5.0</Text>
+          </Space>
+        </div>
+        <Text style={{fontSize:'24px'}}>From 80+ reviews</Text>
+      </Space>
+
       {/* Cards Section */}
       <div
         style={{ marginTop: "40px", marginLeft: "100px", marginRight: "100px" }}
@@ -97,32 +111,23 @@ const HeroComp = () => {
             style={{
               flex: "1 1 200px",
               marginBottom: "16px",
-              backgroundColor: "#00664d",
-              color: "white",
+              backgroundColor: "#C5E1A5",
+              color: "black",
               display: "flex", 
               flexDirection: "column", 
-              justifyContent: "flex-end", 
+              justifyContent: "center", 
               height: "300px", 
             }}
           >
-            <Space direction="vertical" size="middle" style={{ width: "100%" }}>
-              <Text style={{ color: "white", fontSize: "32px" }}>100 +</Text>
-              <Text level={5} style={{ color: "white", fontSize: "24px" }}>
-                Our estimated clients and partners
+            <Space direction="vertical" size="middle" align="center" style={{ width: "100%" }}>
+              <Text style={{ color: "black", fontSize: "32px" }}>6 +</Text>
+              <Text level={5} style={{ color: "black", fontSize: "24px" }}>
+                Years of dasboard service
               </Text>
             </Space>
           </Card>
           {/* Card 5 */}
-          {/* <Card
-            hoverable
-            cover={
-              <img
-                alt="example"
-                src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
-              />
-            }
-            style={{ flex: "1 1 200px", marginBottom: "16px" }} 
-          /> */}
+          
 
           <Card hoverable
             style={{
