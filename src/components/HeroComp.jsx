@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Typography, Card, Space } from "antd";
+import { Flex, Typography, Card, Space ,Button} from "antd";
 
 const { Title, Text } = Typography;
 
@@ -16,6 +16,11 @@ const HeroComp = () => {
           Expert tech to elevate your manufacturing. Let’s take business
           further.
         </Title>
+      </Flex>
+
+      <Flex justify="center" align="center" vertical={false} gap="small">
+        <Button  size="large" style={{ backgroundColor: '#006666',color: 'white', padding: '30px' }}>Get started</Button>
+        <Button  size="large" style={{ padding: '30px' }}>Try now</Button>
       </Flex>
 
       {/* Cards Section */}
