@@ -12,10 +12,10 @@ const HeroComp = () => {
         <Text style={{ fontSize: '32px', fontWeight: 'bold' }}>
           With <span style={{ color: "#006666" }}>Latest Technology</span>
         </Text>
-        <Title level={5} style={{ textAlign: "center" }}>
+        <Text style={{ textAlign: "center" ,fontWeight:"bolder" , marginBottom:"32px"}}>
           Expert tech to elevate your manufacturing. Let’s take business
           further.
-        </Title>
+        </Text>
       </Flex>
 
       <Flex justify="center" align="center" vertical={false} gap="small">
@@ -43,7 +43,7 @@ const HeroComp = () => {
                 src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
               />
             }
-            style={{ flex: "1 1 200px", marginBottom: "16px" }} // Flex item without fixed width
+            style={{ flex: "1 1 200px", marginBottom: "16px" }} 
           />
           {/* Card 2 */}
           <Card
@@ -97,7 +97,7 @@ const HeroComp = () => {
             style={{
               flex: "1 1 200px",
               marginBottom: "16px",
-              backgroundColor: "#006666",
+              backgroundColor: "#00664d",
               color: "white",
               display: "flex", 
               flexDirection: "column", 
@@ -113,7 +113,7 @@ const HeroComp = () => {
             </Space>
           </Card>
           {/* Card 5 */}
-          <Card
+          {/* <Card
             hoverable
             cover={
               <img
@@ -121,8 +121,23 @@ const HeroComp = () => {
                 src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
               />
             }
-            style={{ flex: "1 1 200px", marginBottom: "16px" }} // Flex item without fixed width
-          />
+            style={{ flex: "1 1 200px", marginBottom: "16px" }} 
+          /> */}
+
+          <Card hoverable
+            style={{
+              flex: "1 1 200px",
+              marginBottom: "16px",
+              backgroundColor: "#006666",
+              display: "flex", 
+              flexDirection: "column", 
+              justifyContent: "flex-end", 
+              height: "400px", 
+            }}>
+            <Text  style={{  fontSize: "24px" ,color: "white",}}>
+                Our estimated clients and partners
+              </Text>
+          </Card>
         </Flex>
       </div>
     </div>
